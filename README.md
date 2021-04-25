@@ -1,4 +1,25 @@
-# UOCIS322 - Project 2 #
+# Project 2
+Description: Project 2 for CIS 322, Software Development, at the University of Oregon, spring 2021
+Small API using Flask for the first time
+Author: Lindsay Marean
+
+Basic functionality: if a page exists in pages/, and it's html or css, display the page.
+If the path includes arbitrarily forbidden substrings '~', '..', or '//', return 403-FORBIDDEN error.
+If the page doesn't exist, return 404-NOT FOUND error.
+
+Builds and runs a Docker container using the attached Dockerfile. To implement:
+docker build -t <NAME>-cis322-2 .
+docker run -d -p <PORT>:5000 <NAME>-cis322-2
+
+Open a web browser and type in the URL:port (e.g. localhost:5000). Example content includes index.html and embedded/willy.html.
+
+When finished, display running containers with docker ps. Copy the ID of this container and then to the following to close out gracefully:
+docker stop <ID>
+docker rm <ID>
+
+The original README from the project assignment is included below for full context.
+
+## UOCIS322 - Project 2 #
 
 A "getting started with Docker" project for CIS 322, Introduction to Software Engineering, at the University of Oregon.
 
