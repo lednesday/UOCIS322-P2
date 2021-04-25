@@ -1,0 +1,41 @@
+/* global settings ------------------------- */
+
+ /* boiler-plate box-sizing fix */
+ html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+ a:visited {
+     color: #0e3f6cff;
+ }
+
+head {
+    font-family: "Avant Garde", Avantgarde, CenturyGothic, sans-serif;
+}
+
+/* header section ------------------------------ */
+
+header {
+    font-family: "Avant Garde", Avantgarde, CenturyGothic, sans-serif;
+}
+
+header h1 {
+    font-weight: 900;
+    background: #91c7b1ff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* body section ----------------------------------- */
+
+body {
+    font-family: "Avant Garde", Avantgarde, CenturyGothic, sans-serif;
+    background-color: #FEDE86;
+    padding-left: 10%; 
+    padding-right: 2%;
+}
+
+
